@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+.main-content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    // border: solid 1px #CCC;
+    border-radius: 5px;
+    background-color: #EFEFEF;
+    padding: 10px;
+    .nav-content {
+        background-color: #FFF;
+        border-radius: 5px;
+    }
+}
