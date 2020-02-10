@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { BasicComponent } from './components/basic/basic.component';
 import { ExpandableComponent } from './components/expandable/expandable.component';
 import { ServerSideComponent } from './components/server-side/server-side.component';
+import { SelectComponent } from './components/select/select.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BasicComponent,
     ExpandableComponent,
-    ServerSideComponent
+    ServerSideComponent,
+    SelectComponent
   ],
   imports: [
     BrowserModule,

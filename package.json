@@ -19,7 +19,7 @@
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
-    "angular-tree-table": "0.0.28",
+    "angular-tree-table": "0.0.33",
     "bootstrap": "^4.4.1",
     "file-saver": "^2.0.2",
     "jquery": "^3.4.1",

@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { BasicComponent } from './components/basic/basic.component';
 import { ExpandableComponent } from './components/expandable/expandable.component';
 import { ServerSideComponent } from './components/server-side/server-side.component';
+import { SelectComponent } from './components/select/select.component';
 
 
 const routes: Routes = [
@@ -14,6 +15,10 @@ const routes: Routes = [
   {
     path: 'basic',
     component: BasicComponent
+  },
+  {
+    path: 'select',
+    component: SelectComponent
   },
   {
     path: 'expandable',
