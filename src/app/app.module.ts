@@ -8,6 +8,7 @@ import { BasicComponent } from './components/basic/basic.component';
 import { ExpandableComponent } from './components/expandable/expandable.component';
 import { ServerSideComponent } from './components/server-side/server-side.component';
 import { SelectComponent } from './components/select/select.component';
+import { InputsComponent } from './components/inputs/inputs.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SelectComponent } from './components/select/select.component';
     BasicComponent,
     ExpandableComponent,
     ServerSideComponent,
-    SelectComponent
+    SelectComponent,
+    InputsComponent
   ],
   imports: [
     BrowserModule,

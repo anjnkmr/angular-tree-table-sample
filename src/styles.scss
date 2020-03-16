@@ -11,3 +11,10 @@
         border-radius: 5px;
     }
 }
+app-inputs {
+    tr.even {
+        td:last-child {
+            background: green;
+        }
+    }
+}

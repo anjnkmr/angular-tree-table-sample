@@ -4,6 +4,7 @@ import { BasicComponent } from './components/basic/basic.component';
 import { ExpandableComponent } from './components/expandable/expandable.component';
 import { ServerSideComponent } from './components/server-side/server-side.component';
 import { SelectComponent } from './components/select/select.component';
+import { InputsComponent } from './components/inputs/inputs.component';
 
 
 const routes: Routes = [
@@ -23,6 +24,10 @@ const routes: Routes = [
   {
     path: 'expandable',
     component: ExpandableComponent
+  },
+  {
+    path: 'inputs',
+    component: InputsComponent
   },
   {
     path: 'server-side',
