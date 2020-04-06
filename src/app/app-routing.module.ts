@@ -5,6 +5,7 @@ import { ExpandableComponent } from './components/expandable/expandable.componen
 import { ServerSideComponent } from './components/server-side/server-side.component';
 import { SelectComponent } from './components/select/select.component';
 import { InputsComponent } from './components/inputs/inputs.component';
+import { ExpandableHeaderLessComponent } from './components/expandable-header-less/expandable-header-less.component';
 
 
 const routes: Routes = [
@@ -24,6 +25,10 @@ const routes: Routes = [
   {
     path: 'expandable',
     component: ExpandableComponent
+  },
+  {
+    path: 'expandable-header-less',
+    component: ExpandableHeaderLessComponent
   },
   {
     path: 'inputs',
